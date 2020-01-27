@@ -1,0 +1,99 @@
+.body{
+	background-color:grey;
+}
+/*------navigation-----*/
+#navbar{
+	position:sticky;
+	top:0;
+	z-index:10;
+	box-shadow: 2px white;
+	
+}
+.navbar-brand img{
+	height:60px;
+	padding-left:30px;
+}
+.navbar-nav li{
+	padding: 0 5px;
+}
+.navbar-nav a{
+	float:right;
+	text-align:left;
+}
+#navbar ul li a:hover{
+	color:gold;
+}
+.nav-link{
+	font-size:25px;
+	font-weight:500;
+}
+#navbar left-side right-sidw{
+	display:flex;
+}
+.carousel-inner img{
+	height:500px;
+	z-index:10px;
+}
+.carousel-inner h1{
+	text-align:center;
+	color:gold;
+	font-size:30px;
+	font-weight:500;
+}
+.carousel-inner h1{
+	position:absolute;
+	top:50%;
+	right:35%;
+}
+.carousel-inner button 1{
+	position:absolute;
+	top:50%;
+	right:50%;
+}
+.button1{
+	color:grey;
+	padding-bottom:1px;
+}
+.button1:hover{
+	color:gold;
+}
+.about-conents{
+	font-size:13px;
+	font-weight:600;
+	margin-bottom:17px;
+}
+about-up{
+	position: absolute;
+	right:20%;
+}
+.skill-bar p{
+	margin-bottom:17px;
+	font-weight:600;
+}
+.progress-bar{
+border-radius:16px;
+}
+.progress{
+	border-radius:16px;
+}
+h2{
+	text-align:center;
+	color:grey;
+}
+
+#services{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/kk.jpg);
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+	margin-bottom:20px;
+}
+#services h2:: after{
+	content:'';
+	background:#efefef;
+	display:block;
+	width:10px;
+	height:20px auto 5px;
+}
